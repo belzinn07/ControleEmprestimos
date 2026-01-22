@@ -1,3 +1,7 @@
+_history/
+_recovery/
+_backup/
+
 # --- Binários e Arquivos de Compilação ---
 *.exe
 *.dll
