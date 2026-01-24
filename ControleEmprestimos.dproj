@@ -130,12 +130,12 @@
         <DCCReference Include="src\domain\untPessoa.pas"/>
         <DCCReference Include="src\infra\untDMPrincipal.pas">
             <Form>dmPrincipal</Form>
-            <FormType>dfm</FormType>
             <DesignClass>TDataModule</DesignClass>
         </DCCReference>
         <DCCReference Include="src\domain\untEmprestimo.pas"/>
         <DCCReference Include="src\domain\contracts\untIValidador.pas"/>
         <DCCReference Include="src\repository\untPessoaRepository.pas"/>
+        <DCCReference Include="src\repository\untEmprestimoRepository.pas"/>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>
         </BuildConfiguration>

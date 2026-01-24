@@ -24,6 +24,7 @@ type
      public
        constructor Create(APessoaId: Integer; AValor: Currency; AData: TDate);
        procedure Validar;
+       procedure MarcarComoPago(const ADataPagamento: TDateTime);
 
        property Id: Integer read FId write FId;
        property PessoaId: Integer read FPessoaId write FPessoaId;
@@ -59,6 +60,16 @@ begin
 
   if FValor <= 0 then
     raise Exception.Create('Valor do empréstimo deve ser maior que zero');
+end;
+
+procedure TEmprestimo.MarcarComoPago(const ADataPagamento: TDateTime);
+begin
+
+  if FStatus = sePago then
+    raise Exception.Create('Empréstimos já está pago');
+
+ FStatus := sePago;
+ FDataPagamento := ADataPagamento;
 end;
 
 end.

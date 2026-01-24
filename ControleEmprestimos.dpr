@@ -6,7 +6,8 @@ uses
   untDMPrincipal in 'src\infra\untDMPrincipal.pas' {dmPrincipal: TDataModule},
   untEmprestimo in 'src\domain\untEmprestimo.pas',
   untIValidador in 'src\domain\contracts\untIValidador.pas',
-  untPessoaRepository in 'src\repository\untPessoaRepository.pas';
+  untPessoaRepository in 'src\repository\untPessoaRepository.pas',
+  untEmprestimoRepository in 'src\repository\untEmprestimoRepository.pas';
 
 {$R *.res}
 
