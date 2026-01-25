@@ -7,7 +7,8 @@ uses
   untEmprestimo in 'src\domain\untEmprestimo.pas',
   untIValidador in 'src\domain\contracts\untIValidador.pas',
   untPessoaRepository in 'src\repository\untPessoaRepository.pas',
-  untEmprestimoRepository in 'src\repository\untEmprestimoRepository.pas';
+  untEmprestimoRepository in 'src\repository\untEmprestimoRepository.pas',
+  untEmprestimoService in 'src\service\untEmprestimoService.pas';
 
 {$R *.res}
 

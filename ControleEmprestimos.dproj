@@ -136,6 +136,7 @@
         <DCCReference Include="src\domain\contracts\untIValidador.pas"/>
         <DCCReference Include="src\repository\untPessoaRepository.pas"/>
         <DCCReference Include="src\repository\untEmprestimoRepository.pas"/>
+        <DCCReference Include="src\service\untEmprestimoService.pas"/>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>
         </BuildConfiguration>
