@@ -8,7 +8,8 @@ uses
   untIValidador in 'src\domain\contracts\untIValidador.pas',
   untPessoaRepository in 'src\repository\untPessoaRepository.pas',
   untEmprestimoRepository in 'src\repository\untEmprestimoRepository.pas',
-  untEmprestimoService in 'src\service\untEmprestimoService.pas';
+  untEmprestimoService in 'src\service\untEmprestimoService.pas',
+  untPessoaService in 'src\service\untPessoaService.pas';
 
 {$R *.res}
 
