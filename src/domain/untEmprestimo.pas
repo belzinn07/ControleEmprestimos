@@ -60,6 +60,10 @@ begin
 
   if FValor <= 0 then
     raise Exception.Create('Valor do empréstimo deve ser maior que zero');
+
+    if FDataEmprestimo <= 0 then
+    raise Exception.Create('Data inválida');
+
 end;
 
 procedure TEmprestimo.MarcarComoPago(const ADataPagamento: TDateTime);
